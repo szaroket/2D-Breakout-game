@@ -7,8 +7,8 @@ var ballX = 500 / 2;
 var ballY = 400 - 30;
 var ballRadius = 10;
 var ballColor = '#0095DD';
-var ballSpeedX = 10;
-var ballSpeedY = 4;
+var ballSpeedX = 8;
+var ballSpeedY = -4;
 
 
 window.onload = function () {
