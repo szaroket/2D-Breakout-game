@@ -23,4 +23,6 @@ window.onload = function () {
     //Refresh window
     setInterval(callBoth, 1000 / framePerSec);
 
+    //moving paddle
+    movePaddle();
 }
