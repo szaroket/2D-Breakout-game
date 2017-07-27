@@ -4,4 +4,5 @@ function draw() {
     drawCircle(ballX, ballY, ballRadius, ballColor);
     drawRect(paddleX, paddleY, paddleWidth, paddleHeight, paddleColor);
     drawBricks(brickColumn, brickRow, brickWidth, brickHeight, brickColor);
+    collisionDetection();
 }
