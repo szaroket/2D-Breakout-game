@@ -1,4 +1,4 @@
-// Function to move ball
+// Function to move ball and calculate collision
 function moveBall() {
     ballX = ballX + ballSpeedX;
     ballY = ballY + ballSpeedY;
@@ -13,6 +13,8 @@ function moveBall() {
         ballSpeedY = -ballSpeedY;
     }
     if (ballY > (canvas.height - ballRadius)) {
-        ballSpeedY = -ballSpeedY;
+        //ballSpeedY = -ballSpeedY;
+        alert("GAME OVER");
+        document.location.reload();
     }
 }
