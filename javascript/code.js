@@ -14,6 +14,13 @@ var paddleY = 390;
 var paddleWidth = 100;
 var paddleHeight = 10;
 var paddleColor = '#0095DD';
+var brickColumn = 5;
+var brickRow = 3;
+var brickWidth = 75;
+var brickHeight = 25;
+var bricks = [];
+var brickColor = 'blue';
+var brickPadding = 15;
 
 
 window.onload = function () {
