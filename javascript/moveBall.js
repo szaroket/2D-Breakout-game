@@ -13,8 +13,13 @@ function moveBall() {
         ballSpeedY = -ballSpeedY;
     }
     if (ballY > (canvas.height - ballRadius)) {
-        //ballSpeedY = -ballSpeedY;
-        alert("GAME OVER");
-        document.location.reload();
+        if (ballX > paddleX &&
+            ballX < (paddleX + paddleWidth) &&
+            ballY > (canvas.height - paddleHeight)) {
+            ballSpeedY = -ballSpeedY;
+        } else {
+            alert("GAME OVER");
+            document.location.reload();
+        }
     }
 }
