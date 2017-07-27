@@ -19,6 +19,15 @@ var brickRow = 3;
 var brickWidth = 75;
 var brickHeight = 25;
 var bricks = [];
+for (i = 0; i < brickColumn; i++) {
+    bricks[i] = [];
+    for (j = 0; j < brickRow; j++) {
+        bricks[i][j] = {
+            x: 0,
+            y: 0
+        };
+    }
+}
 var brickColor = 'blue';
 var brickPadding = 15;
 
