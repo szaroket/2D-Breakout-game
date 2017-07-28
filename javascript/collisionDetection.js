@@ -10,6 +10,10 @@ function collisionDetection() {
                     ballSpeedY = -ballSpeedY;
                     b.visible = false;
                     score++;
+                    if (score == brickColumn * brickRow) {
+                        alert("YOU WON!");
+                        document.location.reload();
+                    }
                 }
             }
         }
