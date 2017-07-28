@@ -31,6 +31,7 @@ for (i = 0; i < brickColumn; i++) {
 }
 var brickColor = 'blue';
 var brickPadding = 15;
+var score = 0;
 
 
 window.onload = function () {

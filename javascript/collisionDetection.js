@@ -9,6 +9,7 @@ function collisionDetection() {
                     ballY < (b.y + brickHeight)) {
                     ballSpeedY = -ballSpeedY;
                     b.visible = false;
+                    score++;
                 }
             }
         }

@@ -5,4 +5,5 @@ function draw() {
     drawRect(paddleX, paddleY, paddleWidth, paddleHeight, paddleColor);
     drawBricks(brickColumn, brickRow, brickWidth, brickHeight, brickColor);
     collisionDetection();
+    drawScore();
 }
