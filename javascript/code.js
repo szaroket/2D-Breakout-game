@@ -3,8 +3,8 @@
 var canvas;
 var ctx;
 var framePerSec = 30;
-var ballX = 500 / 2;
-var ballY = 400 - 30;
+var ballX = 250;
+var ballY = 370;
 var ballRadius = 10;
 var ballColor = '#0095DD';
 var ballSpeedX = 8;
@@ -32,6 +32,7 @@ for (i = 0; i < brickColumn; i++) {
 var brickColor = 'blue';
 var brickPadding = 15;
 var score = 0;
+var lives = 3;
 
 
 window.onload = function () {

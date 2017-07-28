@@ -6,4 +6,5 @@ function draw() {
     drawBricks(brickColumn, brickRow, brickWidth, brickHeight, brickColor);
     collisionDetection();
     drawScore();
+    drawLives();
 }

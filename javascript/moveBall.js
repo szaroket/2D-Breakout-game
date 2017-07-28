@@ -18,8 +18,14 @@ function moveBall() {
             ballY > (canvas.height - paddleHeight)) {
             ballSpeedY = -ballSpeedY;
         } else {
-            alert("GAME OVER");
-            document.location.reload();
+            lives--;
+            if (lives==0) {
+                alert("GAME OVER");
+                document.location.reload();
+            }
+            else {
+                initialSettings();
+            }
         }
     }
 }
