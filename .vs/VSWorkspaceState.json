@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\javascript"
   ],
-  "SelectedNode": "\\game.html",
+  "SelectedNode": "\\javascript\\drawBricks.js",
   "PreviewInSolutionExplorer": false
 }

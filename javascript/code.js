@@ -24,7 +24,8 @@ for (i = 0; i < brickColumn; i++) {
     for (j = 0; j < brickRow; j++) {
         bricks[i][j] = {
             x: 0,
-            y: 0
+            y: 0,
+            visible: true
         };
     }
 }
